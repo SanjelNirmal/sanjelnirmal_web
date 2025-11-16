@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Poppins:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Radha-Krishna Devotional Design System */
+
+@layer base {
+  :root {
+    /* Light mode - Vrindavan Sunrise */
+    --background: 0 0% 98%;
+    --foreground: 240 10% 10%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 240 10% 10%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 240 10% 10%;
+
+    --primary: 10 75% 50%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 340 55% 65%;
+    --secondary-foreground: 240 10% 10%;
+
+    --muted: 240 5% 94%;
+    --muted-foreground: 240 5% 40%;
+
+    --accent: 10 80% 52%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 240 5% 88%;
+    --input: 240 5% 88%;
+    --ring: 10 75% 50%;
+
+    --radius: 0.75rem;
+
+    --gradient-sunrise: linear-gradient(135deg, hsl(244, 75%, 45%), hsl(340, 97%, 49%), hsl(17, 100%, 55%));
+    --gradient-hero: linear-gradient(to bottom, hsl(263, 92%, 40%) 0%, hsl(283, 60%, 50%) 50%, hsl(345, 65%, 50%) 100%);
+    --gradient-card: linear-gradient(145deg, hsl(313, 100%, 90%), hsl(49, 40%, 92%));
+    
+    --shadow-soft: 0 4px 20px hsla(10, 75%, 50%, 0.1);
+    --shadow-devotional: 0 8px 30px hsla(10, 75%, 50%, 0.15);
+    --shadow-float: 0 12px 40px hsla(10, 75%, 50%, 0.2);
+    
+    --transition-smooth: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-bounce: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  }
+
+  .dark {
+
+    --background: 240 15% 8%;
+    --foreground: 0 0% 98%;
+
+    --card: 240 12% 12%;
+    --card-foreground: 0 0% 98%;
+
+    --popover: 240 12% 12%;
+    --popover-foreground: 0 0% 98%;
+
+    --primary: 10 75% 55%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 340 50% 55%;
+    --secondary-foreground: 0 0% 100%;
+
+    --muted: 240 10% 18%;
+    --muted-foreground: 240 5% 70%;
+
+    --accent: 10 80% 58%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 70% 50%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 240 10% 20%;
+    --input: 240 10% 20%;
+    --ring: 10 75% 55%;
+
+
+    --gradient-sunrise: linear-gradient(135deg, hsl(226, 75%, 45%), hsl(340, 60%, 48%), hsl(56, 65%, 50%));
+    --gradient-hero: linear-gradient(to bottom, hsl(240, 15%, 12%) 0%, hsl(240, 15%, 18%) 50%, hsl(240, 15%, 15%) 100%);
+    --gradient-card: linear-gradient(145deg, hsl(240, 12%, 12%), hsl(240, 10%, 15%));
+    
+    --shadow-soft: 0 4px 20px hsla(0, 0%, 0%, 0.4);
+    --shadow-devotional: 0 8px 30px hsla(0, 0%, 0%, 0.5);
+    --shadow-float: 0 12px 40px hsla(0, 0%, 0%, 0.6);
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground font-body;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-heading;
+  }
+}
+
+@layer utilities {
+  /* Floating animation */
+  @keyframes float {
+    0%, 100% { transform: translateY(0px); }
+    50% { transform: translateY(-10px); }
+  }
+
+  @keyframes float-gentle {
+    0%, 100% { transform: translateY(0px); }
+    50% { transform: translateY(-5px); }
+  }
+
+  /* Fade in animations */
+  @keyframes fade-in-up {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  @keyframes fade-in {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+
+  /* Spin for preloader */
+  @keyframes spin-slow {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+  }
+
+  @keyframes pulse-glow {
+    0%, 100% {
+      opacity: 1;
+      box-shadow: 0 0 20px hsla(10, 75%, 58%, 0.6);
+    }
+    50% {
+      opacity: 0.8;
+      box-shadow: 0 0 40px hsla(10, 75%, 58%, 0.8);
+    }
+  }
+
+  .animate-float {
+    animation: float 3s ease-in-out infinite;
+  }
+
+  .animate-float-gentle {
+    animation: float-gentle 4s ease-in-out infinite;
+  }
+
+  .animate-fade-in-up {
+    animation: fade-in-up 0.6s ease-out;
+  }
+
+  .animate-fade-in {
+    animation: fade-in 0.5s ease-out;
+  }
+
+  .animate-spin-slow {
+    animation: spin-slow 3s linear infinite;
+  }
+
+  .animate-pulse-glow {
+    animation: pulse-glow 2s ease-in-out infinite;
+  }
+
+  /* Gradient backgrounds */
+  .bg-gradient-sunrise {
+    background: var(--gradient-sunrise);
+  }
+
+  .bg-gradient-hero {
+    background: var(--gradient-hero);
+  }
+
+  .bg-gradient-card {
+    background: var(--gradient-card);
+  }
+
+  /* Smooth transitions */
+  .transition-smooth {
+    transition: var(--transition-smooth);
+  }
+
+  .transition-bounce {
+    transition: var(--transition-bounce);
+  }
+
+  /* 3D hover effect */
+  .hover-3d {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  .hover-3d:hover {
+    transform: perspective(1000px) rotateX(2deg) rotateY(-2deg) scale(1.02);
+    box-shadow: var(--shadow-float);
+  }
+
+  /* Devotional shadows */
+  .shadow-soft {
+    box-shadow: var(--shadow-soft);
+  }
+
+  .shadow-devotional {
+    box-shadow: var(--shadow-devotional);
+  }
+
+  .shadow-float {
+    box-shadow: var(--shadow-float);
+  }
+}
