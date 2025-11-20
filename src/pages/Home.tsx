@@ -103,7 +103,7 @@ const Home = () => {
           <div className="text-center mt-12">
             <Link to="/gallery">
               <Button size="lg" variant="outline" className="shadow-soft hover:shadow-devotional transition-smooth">
-                View All Artworks
+                View All Photos
                 <ArrowRight className="ml-2 h-5 w-5" />
               </Button>
             </Link>

@@ -2,12 +2,8 @@ import { useState } from "react";
 import ArtworkCard from "@/components/ArtworkCard";
 import ArtworkModal from "@/components/ArtworkModal";
 import { Button } from "@/components/ui/button";
-import artwork1 from "@/assets/artwork-1.jpg";
-import artwork2 from "@/assets/artwork-2.jpg";
-import artwork3 from "@/assets/artwork-3.jpg";
-import artwork4 from "@/assets/artwork-4.jpg";
-import vrindavan1 from "@/assets/vrindavan-1.jpg";
-import vrindavan2 from "@/assets/vrindavan-2.jpg";
+import artwork1 from "@/assets/Gallery/artwork-1.jpg";
+
 
 const Gallery = () => {
   const [selectedArtwork, setSelectedArtwork] = useState<any>(null);
@@ -21,41 +17,7 @@ const Gallery = () => {
       category: "Devotional",
       date: "2024",
     },
-    {
-      image: artwork2,
-      title: "Krishna's Flute",
-      description: "Enchanting moonlight melodies in the sacred forest",
-      category: "Painting",
-      date: "2024",
-    },
-    {
-      image: artwork3,
-      title: "Radha's Grace",
-      description: "Beauty and devotion in harmony with nature",
-      category: "Portrait",
-      date: "2024",
-    },
-    {
-      image: artwork4,
-      title: "Sacred Mandala",
-      description: "Spiritual geometry with devotional symbols and vibrant colors",
-      category: "Abstract",
-      date: "2024",
-    },
-    {
-      image: vrindavan1,
-      title: "Vrindavan Sunrise",
-      description: "Golden morning light over the sacred temple and Yamuna river",
-      category: "Travel",
-      date: "2024",
-    },
-    {
-      image: vrindavan2,
-      title: "Morning Meditation",
-      description: "Devotees in peaceful contemplation at the temple",
-      category: "Travel",
-      date: "2024",
-    },
+    
   ];
 
   const categories = ["All", "Devotional", "Painting", "Portrait", "Abstract", "Travel"];
