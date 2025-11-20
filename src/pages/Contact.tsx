@@ -139,8 +139,7 @@ const Contact = () => {
               </CardContent>
             </Card>
           </div>
-
-          {/* Contact Form */}
+          
           <div className="animate-fade-in-up" style={{ animationDelay: '0.2s' }}>
             <Card className="shadow-devotional">
               <CardHeader>
@@ -218,6 +217,108 @@ const Contact = () => {
             </Card>
           </div>
 
+
+          <div className="mt-16 animate-fade-in-up" style={{ animationDelay: '0.3s' }}>
+            <h2 className="font-heading text-3xl mb-6 text-center">Find Me Here</h2>
+            <div className="w-full h-96 shadow-devotional rounded-lg overflow-hidden">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3199.1309979549696!2d85.3232040749199!3d27.619717829351934!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb179ee3715aef%3A0xfb23bd38fde58a69!2sNirmal%20Arts%20Gallery!5e1!3m2!1sen!2snp!4v1763650586374!5m2!1sen!2snp"
+                width="100%"
+                height="100%"
+                style={{ border: 0 }}
+                allowFullScreen={true}
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+                title="Vrindavan Map"
+              ></iframe>
+            </div>
+          </div>
+
+          <div className="space-y-6 animate-fade-in-up" style={{ animationDelay: '0.1s' }}>
+            
+            <Card className="shadow-devotional hover-3d">
+              <CardHeader>
+                <CardTitle className="flex items-center font-heading text-2xl">
+                  <MessageCircle className="h-6 w-6 text-primary mr-3" />
+                  Connect
+                </CardTitle>
+              </CardHeader>
+              <CardContent>
+                <p className="text-muted-foreground mb-4">
+                  Follow my devotional journey on social media:
+                </p>
+                <div className="space-y-2">
+                  <p className="text-sm">
+                    <span className="font-medium">X:</span>{" "}
+                    <a
+                      href="https://x.com/nirmalsarts"
+                      className="text-primary hover:text-accent transition-smooth"
+                    >
+                      @nirmalsarts
+                    </a>
+                  </p>
+                  <p className="text-sm">
+                    <span className="font-medium">Youtube:</span>{" "}
+                    <a
+                      href="https://www.youtube.com/@nirmalsanjel071"
+                      className="text-primary hover:text-accent transition-smooth"
+                    >
+                      Nirmal Sanjel
+                    </a>
+                  </p>
+                </div>
+              </CardContent>
+            </Card>
+
+            <Card className="shadow-devotional hover-3d">
+              <CardHeader>
+                <CardTitle className="flex items-center font-heading text-2xl">
+                  <MessageCircle className="h-6 w-6 text-primary mr-3" />
+                  Connect to Meta
+                </CardTitle>
+              </CardHeader>
+              <CardContent>
+                <p className="text-muted-foreground mb-4">
+                  Follow my devotional journey on social media:
+                </p>
+                <div className="space-y-2">
+                  <p className="text-sm">
+                    <span className="font-medium">Instagram:</span>{" "}
+                    <a
+                      href="https://www.instagram.com/shree_kishori_jiu_ka_daas/"
+                      className="text-primary hover:text-accent transition-smooth"
+                    >
+                      @shree_kishori_jiu_ka_daas
+                    </a>
+                  </p>
+                  <p className="text-sm">
+                    <span className="font-medium">Facebook:</span>{" "}
+                    <a
+                      href="https://www.facebook.com/nirmalsanjel07"
+                      className="text-primary hover:text-accent transition-smooth"
+                    >
+                      Nirmal Sanjel
+                    </a>
+                  </p>
+                </div>
+              </CardContent>
+            </Card>
+
+
+            <Card className="bg-gradient-card shadow-devotional">
+              <CardContent className="p-6">
+                <p className="font-heading text-lg text-center italic">
+                  "With the blessings of Radha-Krishna, I look forward to connecting with you all!
+                  Shree Radhe! 🙏"
+                </p>
+              </CardContent>
+            </Card>
+          </div>
+          
+
+
+        
+                
         </div>
       </div>
     </div>

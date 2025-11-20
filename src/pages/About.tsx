@@ -1,4 +1,4 @@
-import { Heart, Palette, MapPin } from "lucide-react";
+import { Heart, Palette, MapPin, Book, Code, PersonStanding } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
 import vrindavan1 from "@/assets/vrindavan-1.jpg";
 import vrindavan2 from "@/assets/vrindavan-2.jpg";
@@ -13,7 +13,7 @@ const About = () => {
             About Me
           </h1>
           <p className="text-muted-foreground text-lg">
-            A journey of devotion, art, and spiritual discovery
+            A journey of devotion, life long journey, art, and spiritual discovery
           </p>
         </div>
 
@@ -23,24 +23,32 @@ const About = () => {
             <CardContent className="p-8 sm:p-12">
               <div className="flex items-center mb-6">
                 <Heart className="h-8 w-8 text-primary mr-3" />
-                <h2 className="font-heading text-3xl font-bold">Hare Krishna</h2>
+                <h2 className="font-heading text-3xl font-bold">Shri Hit Harivansh</h2>
               </div>
               <div className="space-y-4 text-foreground leading-relaxed">
                 <p>
-                  Namaste! I'm Nirmal Sanjel, a devotional artist inspired by the eternal love story 
-                  of Radha and Krishna, and the sacred land of Vrindavan where their divine leelas unfolded.
+                  🙏 Radhe Radhe! I am Nirmal Sanjel, a humble student and devotional artist, inspired by 
+                  the eternal love of Shree Radha Rani and Shree Krishna, and the sacred land of Vrindavan 
+                  where their divine pastimes dance in every breeze and whisper of the Yamuna.
                 </p>
                 <p>
-                  My artistic journey began with a simple desire to express the profound emotions 
-                  that arise from bhakti - pure devotional love. Each stroke of my brush, each color 
-                  I choose, is an offering to the divine couple who dance eternally in my heart.
+                  My journey in art began with a simple heart full of bhakti, a desire to express the 
+                  profound love and devotion that flows naturally from surrender to the divine. Each stroke 
+                  of my brush, each hue I select, is offered to the divine couple whose eternal dance 
+                  resonates in my soul.
                 </p>
                 <p>
-                  Through my art, I seek to capture not just the physical beauty of the deities, 
-                  but the transcendental emotions, the rasa (spiritual flavor) that makes the heart 
-                  dance and the soul sing. My work is my meditation, my seva (service), and my 
-                  humble attempt to share the joy of Krishna consciousness with the world.
+                  Through my creations, I strive to capture not merely the physical forms of the deities, 
+                  but the transcendental emotions and rasa (spiritual flavors) that make the heart rejoice 
+                  and the soul sing. Every artwork is my meditation, my seva (service), and a humble attempt 
+                  to share the eternal joy and beauty of Krishna consciousness with the world.
                 </p>
+                <p>
+                  Even as I walk the path of a student, learning in the material world, my heart finds 
+                  its true home in devotion, and my art becomes the bridge that unites study, discipline, 
+                  and divine love into a single offering at the lotus feet of Shree Radha Krishna.
+                </p>
+
               </div>
             </CardContent>
           </Card>
@@ -57,12 +65,26 @@ const About = () => {
             {
               icon: Palette,
               title: "Creativity",
-              description: "Blending traditional Indian art with contemporary expression",
+              description: "Blending traditional art with contemporary expression",
             },
             {
               icon: MapPin,
               title: "Vrindavan",
               description: "Drawing endless inspiration from the holy dhama",
+            },
+            {
+              icon: Book,
+              title: "Learning Programming",
+              description: "A lifelong student, embracing knowledge in all forms",
+            },
+            {
+              icon: Code,
+              title: "Website Development",
+              description: "Sharing my devotional journey through technology",
+            },
+            { icon: PersonStanding,
+              title: "Student Life",
+              description: "Balancing studies with a heart full of devotion",
             },
           ].map((value, index) => (
             <Card
@@ -102,7 +124,7 @@ const About = () => {
           </div>
           <p className="text-muted-foreground text-center mt-6 italic">
             "In Vrindavan, every tree, every stone, every grain of dust is sacred. 
-            This holy land continues to inspire my artistic and spiritual journey."
+            This holy land continues to inspire my student life and spiritual journey."
           </p>
         </div>
 
@@ -111,11 +133,10 @@ const About = () => {
           <Card className="bg-gradient-card shadow-devotional max-w-3xl mx-auto">
             <CardContent className="p-8 sm:p-12">
               <p className="font-heading text-2xl sm:text-3xl text-primary mb-4">
-                "Art is not what you see, but what you make others see."
+                "Art is my devotion; through it, I connect with the divine love of Radha-Krishna."
               </p>
               <p className="text-muted-foreground">
-                Through devotional art, I hope to help others glimpse the divine beauty 
-                and eternal love of Radha-Krishna.
+                — Nirmal Sanjel              
               </p>
             </CardContent>
           </Card>

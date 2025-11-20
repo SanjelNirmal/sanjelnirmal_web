@@ -3,30 +3,31 @@ import BlogCard from "@/components/BlogCard";
 import { Dialog, DialogContent, DialogTitle } from "@/components/ui/dialog";
 import { Calendar, Clock } from "lucide-react";
 //Image Imports
-import vrindavan1 from "@/assets/vrindavan-1.jpg";
-import vrindavan2 from "@/assets/vrindavan-2.jpg";
-import radhakrishna from "@/assets/radhakrishna.jpg";
-import lovedance from "@/assets/lovedance.jpg";
-import meandpremmandir from "@/assets/meandpremmandir.jpg";
-import radhadamodar from "@/assets/radhadamodar.jpg";
-import radhavallav from "@/assets/radhavallav.jpg";
-import damodarleela from "@/assets/damodarleEla.jpg";
-import teapot from "@/assets/teapot.jpg";
-import vrindavankigali from "@/assets/vrindavan-ki-gali.jpg";
-import govardan from "@/assets/govardan.jpg";
-import radhakunda from "@/assets/radhakunda.jpg";
-import palaceofradharani from "@/assets/palaceofradharani.jpg";
-import radharaniaarati from "@/assets/radharaniaarati.jpg";
 import firsttime from "@/assets/firsttime.jpg";
+import vrindavan2 from "@/assets/vrindavan-2.jpg";
 import malookpeeth from "@/assets/malookpeeth.jpg";
 import vrindagali from "@/assets/vrindagali.jpg";
 import vrindachant from "@/assets/vrindachant.jpg";
 import radhavallavislove from "@/assets/radhavallavislove.jpg";
-import radharaman from "@/assets/radharaman.jpg"; 
+import radhadamodar from "@/assets/radhadamodar.jpg";
 import nidhivan from "@/assets/nidhivan.jpg";
+import radharaman from "@/assets/radharaman.jpg";
 import biharilaal from "@/assets/biharilaal.jpg";
 import inpremmandir from "@/assets/inpremmandir.jpg";
+import meandpremmandir from "@/assets/meandpremmandir.jpg";
+import lovedance from "@/assets/lovedance.jpg";
+import radhakrishna from "@/assets/radhakrishna.jpg";
+import damodarleela from "@/assets/damodarleEla.jpg";
+import teapot from "@/assets/teapot.jpg";
+import vrindavankigali from "@/assets/vrindavan-ki-gali.jpg";
 import govardanwalk from "@/assets/govardanwalk.jpg";
+import govardan from "@/assets/govardan.jpg";
+import radhakunda from "@/assets/radhakunda.jpg";
+import palaceofradharani from "@/assets/palaceofradharani.jpg";
+import radharaniaarati from "@/assets/radharaniaarati.jpg";
+import radhavallav from "@/assets/radhavallav.jpg";
+import vrindavan1 from "@/assets/vrindavan-1.jpg";
+
 
 
 import Hover3D from "@/components/ui/hover-3d";
@@ -539,7 +540,6 @@ const Blog = () => {
   return (
     <div className="min-h-screen pt-24 pb-20 px-4 sm:px-6 lg:px-8">
       <div className="container mx-auto max-w-6xl">
-        =
         <div className="text-center mb-16 animate-fade-in-up">
           <h1 className="font-heading text-4xl sm:text-5xl lg:text-6xl font-bold mb-4">
             Thoughts & Reflections

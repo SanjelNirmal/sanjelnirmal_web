@@ -90,7 +90,7 @@ const Footer = () => {
                 <Instagram className="h-5 w-5" />
               </a>
               <a 
-                href="https://youtube.com" 
+                href="https://www.youtube.com/@nirmalsanjel071" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="bg-muted hover:bg-primary text-muted-foreground hover:text-primary-foreground p-3 rounded-lg transition-smooth hover:scale-110 shadow-soft hover:shadow-devotional"

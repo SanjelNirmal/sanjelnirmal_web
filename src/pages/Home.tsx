@@ -4,32 +4,34 @@ import { Button } from "@/components/ui/button";
 import { ArrowRight, Sparkles, Heart, Palette, Book, Mail } from "lucide-react";
 import ArtworkCard from "@/components/ArtworkCard";
 import ArtworkModal from "@/components/ArtworkModal";
-import artwork1 from "@/assets/artwork-1.jpg";
-import artwork2 from "@/assets/artwork-2.jpg";
-import artwork3 from "@/assets/artwork-3.jpg";
+import firsttime from "@/assets/firsttime.jpg";
+import inpremmandir from "@/assets/inpremmandir.jpg";
+import vrindavakigali from "@/assets/vrindavan-ki-gali.jpg";
 
 const Home = () => {
   const [selectedArtwork, setSelectedArtwork] = useState<any>(null);
 
   const featuredArtworks = [
-    {
-      image: artwork1,
-      title: "Radha-Krishna in Vrindavan",
-      description: "Divine love under the golden sunset",
-      category: "Devotional",
-    },
-    {
-      image: artwork2,
-      title: "Krishna's Flute",
-      description: "Enchanting moonlight melodies",
-      category: "Painting",
-    },
-    {
-      image: artwork3,
-      title: "Radha's Grace",
-      description: "Beauty and devotion in harmony",
-      category: "Portrait",
-    },
+        {
+          image: firsttime,
+          title: "First Time in Vrindavan",
+          description: "Capturing the awe and wonder of a first visit to the holy town.",
+          category: "Travel",
+        },
+        {
+          image: inpremmandir,
+          title: "In Prem Mandir",
+          description: "A serene moment inside the magnificent Prem Mandir temple.",
+          category: "Devotional",
+        },
+        {
+          image: vrindavakigali,
+          title: "Vrindavan Ki Gali",
+          description: "A charming street scene in the heart of Vrindavan.",
+          category: "Travel",
+        },
+
+    
   ];
 
   return (
@@ -226,8 +228,9 @@ const Home = () => {
                 </Button>
               </Link>
               <Link to="/gallery">
-                <Button size="lg" variant="outline" className="border-white text-white hover:bg-white/10">
-                  <span className="text-orange-800">View More Works</span>
+                <Button size="lg" className="bg-white text-primary hover:bg-white/90 transition-bounce shadow-devotional hover:shadow-float">
+                  View More Works and Photos
+                  <ArrowRight className="ml-2 h-5 w-5" />
                 </Button>
               </Link>
             </div>
