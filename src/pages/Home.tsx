@@ -36,9 +36,9 @@ const Home = () => {
 
   return (
     <div className="min-h-screen">
-      {/* Hero Section */}
+      
       <section className="relative min-h-screen flex items-center justify-center bg-gradient-hero overflow-hidden">
-        {/* Floating decorative elements */}
+        
         <div className="absolute inset-0 overflow-hidden pointer-events-none">
           <div className="absolute top-20 left-10 w-20 h-20 bg-primary/10 rounded-full animate-float" />
           <div className="absolute top-40 right-20 w-16 h-16 bg-secondary/10 rounded-full animate-float-gentle" style={{ animationDelay: '1s' }} />
