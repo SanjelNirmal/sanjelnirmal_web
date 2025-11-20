@@ -4,6 +4,7 @@ import ArtworkModal from "@/components/ArtworkModal";
 import { Button } from "@/components/ui/button";
 
 // Importing images
+import pathivara from "@/assets/pathivara.jpg";
 import firsttime from "@/assets/firsttime.jpg";
 import vrindavan2 from "@/assets/vrindavan-2.jpg";
 import malookpeeth from "@/assets/malookpeeth.jpg";
@@ -36,6 +37,14 @@ const Gallery = () => {
   const [selectedCategory, setSelectedCategory] = useState<string>("All");
 
   const artworks = [
+
+        {
+          image: pathivara,
+          title: "Pathivara Temple",
+          description: "A serene view of the Pathivara temple nestled in the hills.",
+          category: "Travel",
+          date: "2024",
+        },
         {
           image: firsttime,
           title: "First Time in Vrindavan",

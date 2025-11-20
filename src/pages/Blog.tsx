@@ -3,6 +3,7 @@ import BlogCard from "@/components/BlogCard";
 import { Dialog, DialogContent, DialogTitle } from "@/components/ui/dialog";
 import { Calendar, Clock } from "lucide-react";
 //Image Imports
+import pathivara from "@/assets/pathivara.jpg";
 import firsttime from "@/assets/firsttime.jpg";
 import vrindavan2 from "@/assets/vrindavan-2.jpg";
 import malookpeeth from "@/assets/malookpeeth.jpg";
@@ -39,7 +40,29 @@ const Blog = () => {
 
   
   const blogPosts = [
+    {
+      title: "Pathivara Temple",
+      excerpt: "A serene view of the Pathivara temple nestled in the hills.",
+      image: pathivara,
+      date: "December 16, 2024",
+      readTime: "5 min read",
+      content: `
+        Nestled amidst the tranquil hills, Pathivara Temple stands as a beacon of spiritual solace and 
+        devotion. My visit to this sacred site was nothing short of transformative.
+        with friends in pathivara hiking trip.
 
+        The journey to the temple was an adventure in itself, with winding trails that offered breathtaking 
+        views of the surrounding landscape. As I approached the temple, the serene atmosphere enveloped me, 
+        inviting a deep sense of peace and reflection.
+
+        Inside the temple, the air was thick with the fragrance of incense and the sound of devotional hymns. 
+        I spent hours in meditation, allowing the divine energy of the place to wash over me.
+
+        My time at Pathivara Temple was a profound reminder of the power of faith and the importance of 
+        finding moments of stillness in our busy lives.
+
+      `,
+    },
     {
       title: "First Time in Vrindavan",
       excerpt: "My first visit to Vrindavan and the spiritual awakening that followed, inspiring my spritual journey.",
