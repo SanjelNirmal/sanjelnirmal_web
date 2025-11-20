@@ -17,7 +17,7 @@ import inpremmandir from "@/assets/inpremmandir.jpg";
 import meandpremmandir from "@/assets/meandpremmandir.jpg";
 import lovedance from "@/assets/lovedance.jpg";
 import radhakrishna from "@/assets/radhakrishna.jpg";
-import damodarleela from "@/assets/damodarleEla.jpg";
+import damodarleela from "@/assets/damodarleela.jpg";
 import teapot from "@/assets/teapot.jpg";
 import vrindavankigali from "@/assets/vrindavan-ki-gali.jpg";
 import govardanwalk from "@/assets/govardanwalk.jpg";
