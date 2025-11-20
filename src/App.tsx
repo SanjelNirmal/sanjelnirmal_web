@@ -13,7 +13,7 @@ import About from "./pages/About";
 import Blog from "./pages/Blog";
 import Contact from "./pages/Contact";
 import NotFound from "./pages/NotFound";
-import Terms from "./pages/terms";
+import Terms from "./pages/Terms";
 
 const queryClient = new QueryClient();
 
