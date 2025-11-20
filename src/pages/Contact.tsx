@@ -17,12 +17,12 @@ const Contact = () => {
 
   const [isSubmitting, setIsSubmitting] = useState(false);
 
-  // Handle input changes
+  
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
 
-  // EmailJS submit
+  
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setIsSubmitting(true);
@@ -61,7 +61,7 @@ const Contact = () => {
     <div className="min-h-screen pt-24 pb-20 px-4 sm:px-6 lg:px-8">
       <div className="container mx-auto max-w-5xl">
 
-        {/* Header */}
+        
         <div className="text-center mb-16 animate-fade-in-up">
           <h1 className="font-heading text-4xl sm:text-5xl lg:text-6xl font-bold mb-4">
             Get in Touch
@@ -74,7 +74,7 @@ const Contact = () => {
 
         <div className="grid lg:grid-cols-2 gap-8">
 
-          {/* Contact Info */}
+          
           <div className="space-y-6 animate-fade-in-up" style={{ animationDelay: '0.1s' }}>
             <Card className="shadow-devotional hover-3d">
               <CardHeader>

@@ -7,7 +7,7 @@ const About = () => {
   return (
     <div className="min-h-screen pt-24 pb-20 px-4 sm:px-6 lg:px-8">
       <div className="container mx-auto max-w-5xl">
-        {/* Header */}
+        
         <div className="text-center mb-16 animate-fade-in-up">
           <h1 className="font-heading text-4xl sm:text-5xl lg:text-6xl font-bold mb-4">
             About Me
@@ -17,7 +17,7 @@ const About = () => {
           </p>
         </div>
 
-        {/* Introduction */}
+        
         <div className="mb-16 animate-fade-in-up" style={{ animationDelay: '0.1s' }}>
           <Card className="shadow-devotional">
             <CardContent className="p-8 sm:p-12">
@@ -54,7 +54,7 @@ const About = () => {
           </Card>
         </div>
 
-        {/* Values */}
+        
         <div className="grid md:grid-cols-3 gap-6 mb-16">
           {[
             {
@@ -101,7 +101,7 @@ const About = () => {
           ))}
         </div>
 
-        {/* Vrindavan Journey */}
+        
         <div className="mb-16 animate-fade-in-up" style={{ animationDelay: '0.5s' }}>
           <h2 className="font-heading text-3xl sm:text-4xl font-bold mb-8 text-center">
             My Vrindavan Journey
@@ -128,7 +128,7 @@ const About = () => {
           </p>
         </div>
 
-        {/* Quote */}
+       
         <div className="text-center animate-fade-in-up" style={{ animationDelay: '0.6s' }}>
           <Card className="bg-gradient-card shadow-devotional max-w-3xl mx-auto">
             <CardContent className="p-8 sm:p-12">

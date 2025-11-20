@@ -229,7 +229,7 @@ const Gallery = () => {
           </p>
         </div>
 
-        {/* Category Filter */}
+        
         <div className="flex flex-wrap items-center justify-center gap-3 mb-12 animate-fade-in">
           {categories.map((category) => (
             <Button
@@ -243,7 +243,7 @@ const Gallery = () => {
           ))}
         </div>
 
-        {/* Gallery Grid */}
+        
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
           {filteredArtworks.map((artwork, index) => (
             <div
@@ -266,7 +266,7 @@ const Gallery = () => {
         )}
       </div>
 
-      {/* Artwork Modal */}
+      
       {selectedArtwork && (
         <ArtworkModal
           isOpen={!!selectedArtwork}

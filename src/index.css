@@ -4,11 +4,11 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Radha-Krishna Devotional Design System */
+
 
 @layer base {
   :root {
-    /* Light mode - Vrindavan Sunrise */
+    
     --background: 0 0% 98%;
     --foreground: 240 10% 10%;
 
@@ -118,7 +118,7 @@
     50% { transform: translateY(-5px); }
   }
 
-  /* Fade in animations */
+  
   @keyframes fade-in-up {
     from {
       opacity: 0;
@@ -135,7 +135,7 @@
     to { opacity: 1; }
   }
 
-  /* Spin for preloader */
+  
   @keyframes spin-slow {
     from { transform: rotate(0deg); }
     to { transform: rotate(360deg); }
@@ -176,7 +176,7 @@
     animation: pulse-glow 2s ease-in-out infinite;
   }
 
-  /* Gradient backgrounds */
+  
   .bg-gradient-sunrise {
     background: var(--gradient-sunrise);
   }
@@ -189,7 +189,7 @@
     background: var(--gradient-card);
   }
 
-  /* Smooth transitions */
+  
   .transition-smooth {
     transition: var(--transition-smooth);
   }
@@ -198,7 +198,7 @@
     transition: var(--transition-bounce);
   }
 
-  /* 3D hover effect */
+  
   .hover-3d {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
   }
@@ -208,7 +208,7 @@
     box-shadow: var(--shadow-float);
   }
 
-  /* Devotional shadows */
+  
   .shadow-soft {
     box-shadow: var(--shadow-soft);
   }

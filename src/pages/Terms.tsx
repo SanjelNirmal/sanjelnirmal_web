@@ -5,7 +5,7 @@ const Terms = () => {
     <div className="min-h-screen pt-24 pb-20 px-4 sm:px-6 lg:px-8">
       <div className="container mx-auto max-w-4xl">
 
-        {/* Header */}
+        
         <div className="text-center mb-14 animate-fade-in-up">
           <h1 className="font-heading text-4xl sm:text-5xl font-bold mb-4">
             Privacy Policy & Terms
@@ -16,7 +16,7 @@ const Terms = () => {
           </p>
         </div>
 
-        {/* Content */}
+        
         <Card className="shadow-devotional animate-fade-in-up">
           <CardHeader>
             <CardTitle className="font-heading text-2xl">
@@ -61,7 +61,7 @@ const Terms = () => {
           </CardContent>
         </Card>
 
-        {/* Terms Section */}
+        
         <Card className="shadow-devotional animate-fade-in-up mt-12">
           <CardHeader>
             <CardTitle className="font-heading text-2xl">
@@ -114,7 +114,7 @@ const Terms = () => {
           </CardContent>
         </Card>
 
-        {/* Footer Note */}
+        
         <p className="text-center mt-10 text-sm text-muted-foreground italic animate-fade-in-up">
           "With devotion and respect, these terms are presented in the spirit of transparency.  
           Radhe Radhe 🙏"
