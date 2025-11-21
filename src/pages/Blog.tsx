@@ -3,8 +3,13 @@ import BlogCard from "@/components/BlogCard";
 import { Dialog, DialogContent, DialogTitle } from "@/components/ui/dialog";
 import { Calendar, Clock } from "lucide-react";
 //Image Imports
+import campfire from "@/assets/campfire.jpg";
+import menmt from "@/assets/menmt.jpg";
+import pathivara1 from "@/assets/pathivara-1.jpg";
+import illam from "@/assets/illam.jpg";
 import pathivara from "@/assets/pathivara.jpg";
 import firsttime from "@/assets/firsttime.jpg";
+import yamuna from "@/assets/yamuna.jpg";
 import vrindavan2 from "@/assets/vrindavan-2.jpg";
 import malookpeeth from "@/assets/malookpeeth.jpg";
 import vrindagali from "@/assets/vrindagali.jpg";
@@ -47,29 +52,112 @@ const Blog = () => {
       date: "November 4, 2025",
       readTime: "4 min read",
       content: `
-        My recent visit to Darahara with my dear friend Buba was an unforgettable experience. The historic site, with its towering structure and rich cultural heritage, offered a glimpse into Nepal's vibrant past. We explored the intricate architecture, learned about the site's significance, and soaked in the breathtaking views from the top. Sharing this journey with Buba made it even more special, as we bonded over our shared appreciation for history and culture.
+        My recent visit to Darahara with my dear friend Buba was an unforgettable experience. 
+        The historic site, with its towering structure and rich cultural heritage, offered a glimpse into Nepal's vibrant past. 
+        We explored the intricate architecture, learned about the site's significance, and soaked in the breathtaking views from the top. 
+        Sharing this journey with Buba made it even more special, as we bonded over our shared appreciation for history and culture.
       `,
     },
     {
-      title: "Pathivara Temple",
-      excerpt: "A serene view of the Pathivara temple nestled in the hills.",
-      image: pathivara,
+      title: "Spiritual Campfire Nights at Bhedetar with JBC Friends",
+      excerpt: "Reflecting on the serene campfire nights in Bhedetar and how they enhance my spiritual journey.",
+      image: campfire,
+      date: "December 17, 2024",
+      readTime: "5 min read",
+      content: `
+        The campfire nights in Bhedetar with my friends from JBC were truly magical. 
+        Surrounded by the tranquil beauty of nature, we gathered around the warm glow of the fire, 
+        sharing stories, laughter, and moments of deep reflection.
+
+        The crackling fire provided a comforting backdrop as we delved into discussions about spirituality, 
+        life, and our personal journeys. The serene environment allowed me to connect more deeply with 
+        my inner self and the divine.
+
+        These nights not only strengthened our bonds of friendship but also enriched my spiritual practice, 
+        reminding me of the importance of community and connection in our lives.
+
+      `,
+    },
+    {
+      title: "Meditation in the Mountains of Nepal",
+      excerpt: "Exploring the serene mountains of Nepal and how meditation amidst nature enhances my spiritual journey.",
+      image: menmt,
       date: "December 16, 2024",
       readTime: "5 min read",
       content: `
-        Nestled amidst the tranquil hills, Pathivara Temple stands as a beacon of spiritual solace and 
-        devotion. My visit to this sacred site was nothing short of transformative.
-        with friends in pathivara hiking trip.
+        My recent trip to the mountains of Nepal was a transformative experience that deepened my spiritual practice. 
+        Surrounded by towering peaks and lush greenery, I found the perfect environment for meditation and self-reflection.
 
-        The journey to the temple was an adventure in itself, with winding trails that offered breathtaking 
-        views of the surrounding landscape. As I approached the temple, the serene atmosphere enveloped me, 
-        inviting a deep sense of peace and reflection.
+        Each morning, I would wake up to the sound of birds chirping and the gentle rustle of leaves. 
+        Finding a quiet spot overlooking the valleys, I would sit in meditation, allowing the tranquility of nature 
+        to wash over me. The crisp mountain air filled my lungs, and with each breath, I felt more connected to the 
+        present moment.
 
-        Inside the temple, the air was thick with the fragrance of incense and the sound of devotional hymns. 
-        I spent hours in meditation, allowing the divine energy of the place to wash over me.
+        The beauty of the mountains served as a powerful reminder of the vastness of the universe and my place within it. 
+        This journey not only rejuvenated my mind and body but also inspired me to continue exploring the depths of my spirituality through meditation.
 
-        My time at Pathivara Temple was a profound reminder of the power of faith and the importance of 
-        finding moments of stillness in our busy lives.
+      `,
+    },
+
+    {
+      title: "Pathivara Trip with JBC Friends",
+      excerpt: "An adventurous trip to Pathivara with friends from JBC, exploring the spiritual and natural beauty of the region.",
+      image: pathivara1,
+      date: "December 16, 2024",
+      readTime: "5 min read",
+      content: `
+        My recent trip to Pathivara with my friends from JBC was an unforgettable adventure. 
+        The journey to the sacred temple, nestled in the hills, was filled with breathtaking views 
+        and spiritual energy. We trekked through lush forests, crossed sparkling streams, and 
+        finally reached the temple, where we offered our prayers and soaked in the serene atmosphere.
+
+        The camaraderie among us grew stronger as we shared stories, laughter, and moments of reflection. 
+        This trip not only deepened my spiritual connection but also created lasting memories with my 
+        dear friends from JBC.
+        
+      `,
+    },
+    {
+      title: "JBC Student and Vibes of Illam" ,
+      excerpt: "A joyful trip to Illam with the friends of JBC, filled with laughter, adventure, and unforgettable memories.",
+      image: illam,
+      date: "December 15, 2025",
+      readTime: "5 min read",
+      content: `
+        My recent trip to Illam with my friends from JBC was an unforgettable adventure. 
+        The lush tea gardens, rolling hills, and serene landscapes provided the perfect backdrop 
+        for our escapade. We spent our days exploring the picturesque surroundings, indulging in 
+        local delicacies, and bonding over shared experiences.
+
+        One of the highlights of the trip was our visit to a traditional tea factory, where we 
+        learned about the intricate process of tea production. The camaraderie among us grew stronger 
+        as we navigated through the winding trails and soaked in the breathtaking views.
+
+        This journey to Illam not only offered a refreshing break from our routines but also created 
+        lasting memories that we will cherish forever.
+
+      `,
+    },
+
+    
+    {
+      title: "Illam and Boys of JBC",
+      excerpt: "A joyful trip to Illam with the boys of JBC, filled with laughter, adventure, and unforgettable memories.",
+      image: pathivara,
+      date: "December 15, 2024",
+      readTime: "5 min read",
+      content: `
+        My recent trip to Illam with my friends from JBC was an unforgettable adventure. 
+        The lush tea gardens, rolling hills, and serene landscapes provided the perfect backdrop 
+        for our escapade. We spent our days exploring the picturesque surroundings, indulging in 
+        local delicacies, and bonding over shared experiences.
+
+        One of the highlights of the trip was our visit to a traditional tea factory, where we 
+        learned about the intricate process of tea production. The camaraderie among us grew stronger 
+        as we navigated through the winding trails and soaked in the breathtaking views.
+
+        This journey to Illam not only offered a refreshing break from our routines but also created 
+        lasting memories that we will cherish forever.  
 
       `,
     },
@@ -77,7 +165,7 @@ const Blog = () => {
       title: "First Time in Vrindavan",
       excerpt: "My first visit to Vrindavan and the spiritual awakening that followed, inspiring my spritual journey.",
       image: firsttime,
-      date: "December 5, 2024",
+      date: "November 9, 2024",
       readTime: "6 min read",
       content: `
         Stepping into Vrindavan for the first time was like entering a different realm. The air was thick 
@@ -96,12 +184,28 @@ const Blog = () => {
 
       `,
     },
+    {
+      title: "Evening Aarti at Yamuna River",
+      excerpt: "Devotees offering prayers as the sun sets over the sacred river.",
+      image: yamuna,
+      date: "November 9, 2024",
+      readTime: "5 min read",
+      content: `
+        The evening aarti at the Yamuna River was a mesmerizing experience that touched my soul deeply. As the sun began to set, casting a golden hue over the water, devotees gathered along the riverbank,
+        their faces illuminated by the flickering flames of oil lamps. The air was filled with the sound of
+        devotional songs and the rhythmic chanting of prayers, creating an atmosphere of profound spirituality.
+        I joined the devotees in offering my own prayers, feeling a deep sense of connection to the divine
+        energy that seemed to permeate the entire scene. The sight of the lamps floating on the river,
+        carried by the gentle current, was a powerful symbol of surrender and devotion. This evening aarti
+        at the Yamuna River will forever remain etched in my heart as a moment of pure spiritual bliss.
+      `,
+    },
     
     {
       title: "Sunrise in Vrindavan",
       excerpt: "Witnessing the magical dawn at Vrindavan temples and how these precious moments transform into artistic inspiration for capturing divine beauty.",
       image: vrindavan2,
-      date: "December 10, 2024",
+      date: "November 10, 2024",
       readTime: "7 min read",
       content: `
         My visit to Vrindavan during sunrise felt like stepping directly into the pages of a divine leela. 
@@ -122,7 +226,7 @@ const Blog = () => {
       title: "Malook Peeth: The Hidden Gem",
       excerpt: "Discovering the serene Malook Peeth in Vrindavan and how its tranquil atmosphere fuels my devotional journey.",
       image: malookpeeth,
-      date: "December 6, 2024",
+      date: "November 9, 2024",
       readTime: "5 min read",
       content: `
         Tucked away from the bustling streets of Vrindavan, Malook Peeth is a serene sanctuary that 
@@ -143,7 +247,7 @@ const Blog = () => {
       title: "Vrindavan Ki Gali: Streets of Devotion",
       excerpt: "Exploring the nightlife of Vrindavan Ki Gali and how the lively atmosphere fuels my devotion.",
       image: vrindagali,
-      date: "December 13, 2024",
+      date: "November 9, 2024",
       readTime: "6 min read",
       content: `
         As the sun set over Vrindavan, the streets of Vrindavan Ki Gali came alive with vibrant energy. 
@@ -163,7 +267,7 @@ const Blog = () => {
       title: "Chanting in Vrindavan by braj and bhakta",
       excerpt: "Immersing myself in the soulful chanting sessions in Vrindavan and how they elevate my spiritual practice.",
       image: vrindachant,
-      date: "December 14, 2024",
+      date: "November 9, 2024",
       readTime: "5 min read",
       content: `
         One of the most transformative experiences during my time in Vrindavan was participating in the 
@@ -183,7 +287,7 @@ const Blog = () => {
       title: "Radhavallav is Love: First Morning in Vrindavan",
       excerpt: "Experiencing the divine love at Radhavallabha Temple and how it inspires my spiritual journey.",
       image: radhavallavislove,
-      date: "December 9, 2024",
+      date: "November 10, 2024",
       readTime: "6 min read",
       content: `
         My first morning in Vrindavan was marked by a visit to the Radhavallabha Temple, a place that 
@@ -204,7 +308,7 @@ const Blog = () => {
       title: "Radhadamodar: The Joyful Divine Couple",
       excerpt: "Exploring the enchanting lilas of Radhadamodar and how their joyful pastimes inspire my devotional art and spiritual journey.",
       image: radhadamodar,
-      date: "December 7, 2024",
+      date: "November 10, 2024",
       readTime: "5 min read",
       content: `
         Visiting Radha Damodar Temple was a unique experience during my Vrindavan journey. The temple was 
@@ -224,7 +328,7 @@ const Blog = () => {
       title: "Nidhivan: The Enchanted Grove",
       excerpt: "Exploring the mystical Nidhivan in Vrindavan and how its enchanting atmosphere and where Laal ji dance with gopis inspires my devotional art.",
       image: nidhivan,
-      date: "December 11, 2024",
+      date: "November 10, 2024",
       readTime: "6 min read",
       content: `
         Nidhivan is a place shrouded in mystery and divine energy. As I entered the sacred grove, I was 
@@ -245,7 +349,7 @@ const Blog = () => {
       title: "Radharaman: The Compassionate Lord",
       excerpt: "Discovering the divine compassion of Radharaman and how his loving presence inspires my spiritual journey in Vrindavan.",
       image: radharaman,
-      date: "December 8, 2024",
+      date: "November 10, 2024",
       readTime: "5 min read",
       content: `
         My visit to Radharaman Temple was a deeply moving experience. The temple, dedicated to Lord 
@@ -264,7 +368,7 @@ const Blog = () => {
       title: "Bihari Laal: The Beloved of Vrindavan",
       excerpt: "Experiencing the divine presence of Bihari Laal in Vrindavan and one of the hardest to see deity in Vrindavan.",
       image: biharilaal,
-      date: "December 12, 2024",
+      date: "November 10, 2024",
       readTime: "5 min read",
       content: `
         Visiting the Bihari Laal Temple was a unique and profound experience during my time in Vrindavan. 
@@ -285,7 +389,7 @@ const Blog = () => {
       title: "In Prem Mandir: A Divine Experience",
       excerpt: "Immersing myself in the divine beauty of Prem Mandir and how its boosting my devotion.",
       image: inpremmandir,
-      date: "December 15, 2024",
+      date: "November 10, 2024",
       readTime: "6 min read",
       content: `
         My visit to Prem Mandir was nothing short of a divine experience. The temple, dedicated to the 
@@ -308,7 +412,7 @@ const Blog = () => {
       title: "A Pilgrim's Journey to Prem Mandir",
       excerpt: "Documenting my spiritual pilgrimage to Prem Mandir in Vrindavan, exploring how the temple's divine beauty fuels my artistic devotion.",
       image: meandpremmandir,
-      date: "December 12, 2024",
+      date: "November 10, 2024",
       readTime: "6 min read",
       content: `
         My visit to Prem Mandir was one of the highlights of my Vrindavan trip. The temple was glowing even 
@@ -328,7 +432,7 @@ const Blog = () => {
       title: "The Dance of Divine Love",
       excerpt: "Capturing the ecstatic dance of Radha and Krishna through art, exploring how their divine love inspires spiritual creativity and devotion.",
       image: lovedance,
-      date: "December 8, 2024",
+      date: "November 10, 2024",
       readTime: "8 min read",
       content: `
         During my trip, I attended a beautiful evening kirtan in a small Vrindavan temple. The way devotees 
@@ -346,7 +450,7 @@ const Blog = () => {
       title: "Vrindava: ISKCON's Divine Love",
       excerpt: "Exploring Radha-Krishna Temple, ISKCON Vrindavan, and the spiritual artistry that captures the essence of divine love and devotion.",
       image: radhakrishna,
-      date: "December 15, 2024",
+      date: "November 10, 2024",
       readTime: "5 min read",
       content: `
         When I entered ISKCON Vrindavan for the first time, I felt an instant wave of devotion. The temple 
@@ -366,7 +470,7 @@ const Blog = () => {
       title: "Damodarleela: The Divine Bond",
       excerpt: "Exploring the enchanting lilas of Damodarleela and how their joyful pastimes inspire my devotional spiritual journey.",
       image: damodarleela,
-      date: "December 11, 2024",
+      date: "November 10, 2024",
       readTime: "5 min read",
       content: `
         Visiting ISKCON Temple was a serene experience during my Vrindavan trip. The temple exuded 
@@ -385,7 +489,7 @@ const Blog = () => {
       title: "The Teapot: A Symbol of Simplicity",
       excerpt: "Have a tea as a morning ritual to start your day with mindfulness and simplicity.",
       image: teapot,
-      date: "December 14, 2024",
+      date: "November 11, 2024",
       readTime: "4 min read",
       content: `
         The simple act of brewing and enjoying a cup of tea has become a cherished ritual in my daily life. 
@@ -404,7 +508,7 @@ const Blog = () => {
       title: "Vrindavan Ki Gali: Streets of Devotion",
       excerpt: "Exploring the vibrant streets of Vrindavan Ki Gali and how the lively atmosphere fuels my devotion.",
       image: vrindavankigali,
-      date: "December 13, 2024",
+      date: "November 11, 2024",
       readTime: "6 min read",
       content: `
         Walking through the bustling streets of Vrindavan Ki Gali was an immersive experience. The vibrant 
@@ -424,7 +528,7 @@ const Blog = () => {
       title: "A Walk Through Govardav: Spiritual Sojourn",
       excerpt: "Taking a serene walk through the sacred paths of Govardav and how the spiritual ambiance inspires my devotional journey.",
       image: govardanwalk,
-      date: "December 14, 2024",
+      date: "November 11, 2024",
       readTime: "5 min read",
       content: `
         My walk through Govardav was a deeply spiritual experience. The sacred paths, lined with ancient 
@@ -443,7 +547,7 @@ const Blog = () => {
       title: "Govardan Hill: The Sacred Ascent",
       excerpt: "Climbing Govardan Hill and experiencing the spiritual significance of this sacred site in Vrindavan.",
       image: govardan,
-      date: "December 15, 2024",
+      date: "November 11, 2024",
       readTime: "5 min read",
       content: `
         My ascent of Govardan Hill was both a physical and spiritual journey. The climb was steep, but 
@@ -465,7 +569,7 @@ const Blog = () => {
       title: "Radhakunda: The Sacred Pond",
       excerpt: "Visiting Radhakunda and experiencing the spiritual significance of this sacred pond in Vrindavan.",
       image: radhakunda,
-      date: "December 16, 2024",
+      date: "November 11, 2024",
       readTime: "5 min read",
       content: `
         My visit to Radhakunda was a deeply spiritual experience. The serene pond, surrounded by lush greenery, 
@@ -484,7 +588,7 @@ const Blog = () => {
       title: "Palace of Radharani: A Divine Abode",
       excerpt: "Exploring the Palace of Radharani and experiencing the spiritual significance of this sacred site in Vrindavan.",
       image: palaceofradharani,
-      date: "December 17, 2024",
+      date: "November 11, 2024",
       readTime: "6 min read",
       content: `
         Visiting the Palace of Radharani was a mesmerizing experience. The intricate architecture and 
@@ -504,7 +608,7 @@ const Blog = () => {
       title: "Radharani Aarti: The Evening Devotion",
       excerpt: "Experiencing the enchanting Radharani Aarti and how this evening ritual deepens my spiritual connection in Barsana.",
       image: radharaniaarati,
-      date: "December 18, 2024",
+      date: "November 11, 2024",
       readTime: "5 min read",
       content: `
         Attending the Radharani Aarti in Barsana was a soul-stirring experience. The temple was adorned 
@@ -524,7 +628,7 @@ const Blog = () => {
       title: "Radhavallabha: The Beloved of Radha",
       excerpt: "Delving into the divine pastimes of Radhavallabha and how his loving relationship with Radha inspires my sprituallity most.",
       image: radhavallav,
-      date: "December 9, 2024",
+      date: "November 12, 2024",
       readTime: "6 min read",
       content: `
         Radhavallabha Temple was unlike any other place I visited. There is no murti of Krishna here—only 
@@ -542,7 +646,7 @@ const Blog = () => {
       title: "Sunset in Vrindavan",
       excerpt: "Witnessing the magical dawn at Vrindavan temples and how these precious moments transform into artistic inspiration for capturing divine beauty.",
       image: vrindavan1,
-      date: "December 10, 2024",
+      date: "November 13, 2024",
       readTime: "7 min read",
       content: `
         Vrindavan during sunset is a different world altogether. I went to Prem Mandir just before the sun 
