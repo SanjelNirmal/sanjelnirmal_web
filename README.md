@@ -56,6 +56,8 @@ Here are some highlights from the website:
 ### Vlogs Section
 ![Vlogs](./screenshots/vlogs.png)
 
+### Contact Section
+![Contact](./screenshots/contact.png)
 
 ## 📜 License & Copyright
 
