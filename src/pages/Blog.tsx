@@ -3,6 +3,7 @@ import BlogCard from "@/components/BlogCard";
 import { Dialog, DialogContent, DialogTitle } from "@/components/ui/dialog";
 import { Calendar, Clock } from "lucide-react";
 //Image Imports
+import profile from "@/assets/profile.jpg";
 import bubame from "@/assets/bubame.jpg";
 import campfire from "@/assets/campfire.jpg";
 import menmt from "@/assets/menmt.jpg";
@@ -46,6 +47,20 @@ const Blog = () => {
 
   
   const blogPosts = [
+    {
+      title: "My Spiritual Journey: From Childhood to Now", 
+      excerpt: "Reflecting on my spiritual journey from childhood to the present and how it has shaped my life.",
+      image: profile,
+      date: "November 21, 2025",
+      readTime: "5 min read",
+      content: `
+        My spiritual journey began in my childhood, where I was introduced to various spiritual practices and teachings.
+        As I grew older, my curiosity and desire for deeper understanding led me to explore different philosophies and traditions.
+        Over the years, I have encountered numerous experiences that have shaped my spiritual path, including meditation,
+        self-reflection, and connecting with like-minded individuals. Each step of this journey has brought me closer to
+        a sense of inner peace and purpose, and I continue to seek growth and enlightenment in my daily life.
+      `,
+    },
     {
       title: "Darahara Visit with Buba",
       excerpt: "A memorable trip to Darahara with my friend Buba, exploring the spiritual and cultural richness of the site.",

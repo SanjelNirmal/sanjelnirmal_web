@@ -4,6 +4,7 @@ import ArtworkModal from "@/components/ArtworkModal";
 import { Button } from "@/components/ui/button";
 
 // Importing images
+import profile from "@/assets/profile.jpg";
 import bubame from "@/assets/bubame.jpg";
 import campfire from "@/assets/campfire.jpg";
 import menmt from "@/assets/menmt.jpg";
@@ -42,6 +43,13 @@ const Gallery = () => {
   const [selectedCategory, setSelectedCategory] = useState<string>("All");
 
   const artworks = [
+    {
+          image: profile,
+          title: "Portrait of the Me.",
+          description: "A self-portrait capturing the essence of the spritual journey.",
+          category: "Portrait",
+          date: "2025",
+    },
         {
           image: bubame,
           title: "Buba Me Temple",
