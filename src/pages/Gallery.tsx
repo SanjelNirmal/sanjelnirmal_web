@@ -4,6 +4,11 @@ import ArtworkModal from "@/components/ArtworkModal";
 import { Button } from "@/components/ui/button";
 
 // Importing images
+import bubame from "@/assets/bubame.jpg";
+import campfire from "@/assets/campfire.jpg";
+import menmt from "@/assets/menmt.jpg";
+import pathivara1 from "@/assets/pathivara-1.jpg";
+import illam from "@/assets/illam.jpg";
 import pathivara from "@/assets/pathivara.jpg";
 import firsttime from "@/assets/firsttime.jpg";
 import vrindavan2 from "@/assets/vrindavan-2.jpg";
@@ -37,7 +42,41 @@ const Gallery = () => {
   const [selectedCategory, setSelectedCategory] = useState<string>("All");
 
   const artworks = [
-
+        {
+          image: bubame,
+          title: "Buba Me Temple",
+          description: "A captivating view of the Buba Me temple surrounded by nature.",
+          category: "Travel",
+          date: "2025",
+        },
+        {
+          image: campfire,
+          title: "Campfire Evenings",
+          description: "Enjoying serene evenings around a campfire in the wilderness.",
+          category: "Travel",
+          date: "2024",   
+        },
+        {
+          image: menmt,
+          title: "Me and the Mountain of Nepal",
+          description: "A memorable trek to the majestic mountains of Nepal.",
+          category: "Travel",
+          date: "2024",
+        },
+        {
+          image: pathivara1,
+          title: "With friends at Pathivara",
+          description: "A breathtaking view of the Pathivara temple from afar.",
+          category: "Travel",
+          date: "2024",
+        },
+        {
+          image: illam,
+          title: "Illam, Nepal",
+          description: "The picturesque village of Illam nestled in the hills of Nepal.",
+          category: "Travel",
+          date: "2024",
+        },
         {
           image: pathivara,
           title: "Pathivara Temple",
@@ -50,7 +89,7 @@ const Gallery = () => {
           title: "First Time in Vrindavan",
           description: "Capturing the awe and wonder of a first visit to the holy town.",
           category: "Travel",
-          date: "2022",
+          date: "2024",
         },
         {
           image: vrindavan2,
@@ -71,7 +110,7 @@ const Gallery = () => {
           title: "Vrindavan Gali",
           description: "A vibrant street scene from the heart of Vrindavan.",
           category: "Travel",
-          date: "2022",
+          date: "2024",
         },
         {
           image: vrindachant,
@@ -99,7 +138,7 @@ const Gallery = () => {
           title: "Nidhivan at Dusk",
           description: "The mystical Nidhivan grove as evening descends.",
           category: "Devotional",
-          date: "2022",
+          date: "2024",
         },
         {
           image: radharaman,
@@ -120,14 +159,14 @@ const Gallery = () => {
           title: "Inside Prem Mandir",
           description: "The intricate carvings and divine atmosphere within Prem Mandir.",
           category: "Devotional",
-          date: "2022",
+          date: "2024",
         },
         {
           image: meandpremmandir,
           title: "At Prem Mandir",
           description: "Capturing the serene beauty of Prem Mandir in Vrindavan.",
           category: "Travel",
-          date: "2022",
+          date: "2024",
         },
         {
           image: lovedance,
@@ -154,8 +193,8 @@ const Gallery = () => {
           image: teapot,
           title: "Sacred Teapot",
           description: "An intricately designed teapot symbolizing devotion and hospitality.",
-          category: "Painting",
-          date: "2022",
+          category: "Abstract",
+          date: "2024",
         },
         {
           image: vrindavankigali,

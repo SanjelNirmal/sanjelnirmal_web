@@ -3,6 +3,7 @@ import BlogCard from "@/components/BlogCard";
 import { Dialog, DialogContent, DialogTitle } from "@/components/ui/dialog";
 import { Calendar, Clock } from "lucide-react";
 //Image Imports
+import bubame from "@/assets/bubame.jpg";
 import campfire from "@/assets/campfire.jpg";
 import menmt from "@/assets/menmt.jpg";
 import pathivara1 from "@/assets/pathivara-1.jpg";
@@ -33,7 +34,7 @@ import palaceofradharani from "@/assets/palaceofradharani.jpg";
 import radharaniaarati from "@/assets/radharaniaarati.jpg";
 import radhavallav from "@/assets/radhavallav.jpg";
 import vrindavan1 from "@/assets/vrindavan-1.jpg";
-import bubame from "@/assets/bubame.jpg";
+
 
 
 import Hover3D from "@/components/ui/hover-3d";
