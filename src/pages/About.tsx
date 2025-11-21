@@ -1,7 +1,11 @@
 import { Heart, Palette, MapPin, Book, Code, PersonStanding } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
+import illam from "@/assets/illam.jpg";
+import pathivara1 from "@/assets/pathivara-1.jpg";
 import vrindavan1 from "@/assets/vrindavan-1.jpg";
 import vrindavan2 from "@/assets/vrindavan-2.jpg";
+import profile from "@/assets/profile.jpg";
+import { CardBody, CardContainer, CardItem } from "@/components/ui/3d-card";
 
 const About = () => {
   return (
@@ -16,6 +20,33 @@ const About = () => {
             A journey of devotion, life long journey, art, and spiritual discovery
           </p>
         </div>
+
+        <CardContainer className="inter-var">
+      <CardBody className="bg-gray-50 relative group/card  dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-auto sm:w-[30rem] h-auto rounded-xl p-6 border  ">
+        <CardItem
+          translateZ="50"
+          className="text-xl font-bold text-neutral-600 dark:text-white"
+        >
+          "Nirmal Sanjel"
+        </CardItem>
+        <CardItem
+          as="p"
+          translateZ="60"
+          className="text-neutral-500 text-sm max-w-sm mt-2 dark:text-neutral-300"
+        >
+          Devotional Artist | Student | Programmer | Vrindavan Enthusiast
+        </CardItem>
+        <CardItem translateZ="100" className="w-full mt-4">
+          <img
+            src={profile}
+            height="1000"
+            width="1000"
+            className="h-60 w-full object-cover rounded-xl group-hover/card:shadow-xl"
+            alt="thumbnail"
+          />
+        </CardItem>
+      </CardBody>
+    </CardContainer>
 
         
         <div className="mb-16 animate-fade-in-up" style={{ animationDelay: '0.1s' }}>
@@ -104,6 +135,32 @@ const About = () => {
         
         <div className="mb-16 animate-fade-in-up" style={{ animationDelay: '0.5s' }}>
           <h2 className="font-heading text-3xl sm:text-4xl font-bold mb-8 text-center">
+            My Pathivara Journey with Friends
+          </h2>
+          <div className="grid md:grid-cols-2 gap-6">
+            <div className="relative aspect-video overflow-hidden rounded-lg shadow-devotional hover-3d">
+              <img
+                src={illam}
+                alt="with Friends at Illam"
+                className="w-full h-full object-cover"
+              />
+            </div>
+            <div className="relative aspect-video overflow-hidden rounded-lg shadow-devotional hover-3d">
+              <img
+                src={pathivara1}
+                alt="In Pathivara Temple"
+                className="w-full h-full object-cover"
+              />
+            </div>
+          </div>
+          <p className="text-muted-foreground text-center mt-6 italic">
+            "The serene hills of Illam and the sacred Pathivara temple provided a perfect backdrop
+            for friendship and spiritual exploration."
+          </p>
+        </div>
+
+          <div className="mb-16 animate-fade-in-up" style={{ animationDelay: '0.5s' }}>
+          <h2 className="font-heading text-3xl sm:text-4xl font-bold mb-8 text-center">
             My Vrindavan Journey
           </h2>
           <div className="grid md:grid-cols-2 gap-6">
@@ -127,7 +184,6 @@ const About = () => {
             This holy land continues to inspire my student life and spiritual journey."
           </p>
         </div>
-
        
         <div className="text-center animate-fade-in-up" style={{ animationDelay: '0.6s' }}>
           <Card className="bg-gradient-card shadow-devotional max-w-3xl mx-auto">
