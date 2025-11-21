@@ -73,14 +73,14 @@ const Gallery = () => {
         {
           image: illam,
           title: "Illam, Nepal",
-          description: "The picturesque village of Illam nestled in the hills of Nepal.",
+          description: "The picturesque village of Illam nestled in the hills of Nepal with JBC BCA 2081 Batch.",
           category: "Travel",
           date: "2024",
         },
         {
           image: pathivara,
-          title: "Pathivara Temple",
-          description: "A serene view of the Pathivara temple nestled in the hills.",
+          title: "Illam Vibes",
+          description: "Boys enjoying the ambiance at Illam in Nepal.",
           category: "Travel",
           date: "2024",
         },
