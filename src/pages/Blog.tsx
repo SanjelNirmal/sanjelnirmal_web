@@ -28,7 +28,7 @@ import palaceofradharani from "@/assets/palaceofradharani.jpg";
 import radharaniaarati from "@/assets/radharaniaarati.jpg";
 import radhavallav from "@/assets/radhavallav.jpg";
 import vrindavan1 from "@/assets/vrindavan-1.jpg";
-
+import bubame from "@/assets/bubame.jpg";
 
 
 import Hover3D from "@/components/ui/hover-3d";
@@ -40,6 +40,16 @@ const Blog = () => {
 
   
   const blogPosts = [
+    {
+      title: "Darahara Visit with Buba",
+      excerpt: "A memorable trip to Darahara with my friend Buba, exploring the spiritual and cultural richness of the site.",
+      image: bubame,
+      date: "November 4, 2025",
+      readTime: "4 min read",
+      content: `
+        My recent visit to Darahara with my dear friend Buba was an unforgettable experience. The historic site, with its towering structure and rich cultural heritage, offered a glimpse into Nepal's vibrant past. We explored the intricate architecture, learned about the site's significance, and soaked in the breathtaking views from the top. Sharing this journey with Buba made it even more special, as we bonded over our shared appreciation for history and culture.
+      `,
+    },
     {
       title: "Pathivara Temple",
       excerpt: "A serene view of the Pathivara temple nestled in the hills.",
