@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Poppins:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro&family=Literata');
 
 @tailwind base;
 @tailwind components;
@@ -40,7 +40,7 @@
     --radius: 0.75rem;
 
     --gradient-sunrise: linear-gradient(135deg, hsl(244, 75%, 45%), hsl(340, 97%, 49%), hsl(17, 100%, 55%));
-    --gradient-hero: linear-gradient(to bottom, hsl(263, 92%, 40%) 0%, hsl(283, 60%, 50%) 50%, hsl(345, 65%, 50%) 100%);
+    --gradient-hero: linear-gradient(to bottom, hsl(359, 50%, 78%) 0%, hsl(283, 70%, 55%) 50%, hsl(249, 70%, 55%) 100%);
     --gradient-card: linear-gradient(145deg, hsl(313, 100%, 90%), hsl(49, 40%, 92%));
     
     --shadow-soft: 0 4px 20px hsla(10, 75%, 50%, 0.1);

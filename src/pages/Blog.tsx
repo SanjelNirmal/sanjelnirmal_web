@@ -3,6 +3,7 @@ import BlogCard from "@/components/BlogCard";
 import { Dialog, DialogContent, DialogTitle } from "@/components/ui/dialog";
 import { Calendar, Clock } from "lucide-react";
 //Image Imports
+import bcawebclass from "@/assets/bcawebclass.jpeg";
 import profile from "@/assets/profile.jpg";
 import bubame from "@/assets/bubame.jpg";
 import campfire from "@/assets/campfire.jpg";
@@ -47,6 +48,25 @@ const Blog = () => {
 
   
   const blogPosts = [
+    {
+      title: "BCA Web Class Experience",
+      excerpt: "Sharing my experience of attending BCA web classes and how it has impacted my learning journey.",
+      image: bcawebclass,
+      date: "November 23, 2025",
+      readTime: "4 min read",
+      content: `
+        Attending BCA web classes has been a transformative experience for me. The flexibility of online learning 
+        has allowed me to balance my studies with other commitments, while still gaining a comprehensive understanding 
+        of the curriculum.
+
+        The interactive nature of the classes, combined with the use of multimedia resources, has made learning engaging 
+        and enjoyable. I've had the opportunity to connect with fellow students from diverse backgrounds, enriching my 
+        educational journey.
+
+        Overall, my experience with BCA web classes has been positive, and I look forward to continuing my studies in this 
+        dynamic learning environment.
+      `,
+    },
     {
       title: "My Spiritual Journey: From Childhood to Now", 
       excerpt: "Reflecting on my spiritual journey from childhood to the present and how it has shaped my life.",
